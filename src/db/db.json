@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "food_type": "фуа-гра",
+            "portion_quantity": 10,
+            "gift": "мышь",
+            "weight": 0.3,
+            "active": true,
+            "massage": "Печень утки разварная с артишоками."
+        },
+        {
+            "food_type": "рыбой",
+            "portion_quantity": 40,
+            "gift": "2 мыши",
+            "weight": 2,
+            "active": true,
+            "massage": "Головы щучьи с чесноком да свежайшая сёмгушка."
+        },
+        {
+            "food_type": "курой",
+            "portion_quantity": 100,
+            "gift": "5 мышей",
+            "weight": 5,
+            "active": false,
+            "massage": "Филе из цыплят с трюфелями в бульоне."
+        }
+    ]
+}

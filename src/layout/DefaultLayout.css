@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Exo 2.0 Thin';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Exo 2.0 Thin'), local('Exo2.0Thin-Regular'),
+        url(http://allfont.ru/cache/fonts/exo-20-thin_c8781e3af5d030a77fa954cbaf83eb45.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/exo-20-thin_c8781e3af5d030a77fa954cbaf83eb45.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Trebuchet ms';
+    src: url(/public/fonts/trebuchet-ms.ttf) format('truetype');
+}
+p, h1, h2, h3, div, ul, li, ol, a {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+#root, .app, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: arial;
+    font-size: 16px;
+    background-image: url(/img/Pattern.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.bg_shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/Shadow.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    z-index: -1;
+}
+
+h2 {
+    padding-top: 47px;
+    margin-bottom: 21px;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Exo 2.0 Thin';
+}
+
